@@ -12,11 +12,9 @@
 <div id="root"></div>
 <script>
     // Your React code can go here
-    const rootElement = document.getElementById('root');
-    const root = ReactDOM.createRoot(rootElement);
-    root.render(
-        React.createElement('h1', null, 'Hello, React 18!')
-    );
+    const heading =   React.createElement('h1', {}, 'Hello Suraj, from React 18!');
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(heading);
 </script>
 </body>
 </html>

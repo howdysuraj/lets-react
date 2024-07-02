@@ -17,4 +17,4 @@ const HeadingComponet = ({name}) => (
     </div>)
    
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HeadingComponet name="Suraj"></HeadingComponet>);
+root.render(<HeadingComponet name="Suraj" />);

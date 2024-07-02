@@ -12,10 +12,18 @@ const heading = <h1>hello jsx</h1>;
 //Functional Componets
 const TitleComponent = () => <h1>This is title</h1>
 
+const titleElement = (
+    <h1>xxx</h1>
+)
+
 const HeadingComponet = ({name}) => (
     <div id="container">
+        {/* rendering a react elemnt */}
+        {titleElement}
          {/* componet composition */}
         <TitleComponent/>
+        {TitleComponent()}
+        <TitleComponent></TitleComponent>
   <h1>Hello {name} from Heading functional componet</h1>
 
     </div>)

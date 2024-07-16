@@ -1,5 +1,6 @@
 import  React  from "react";
 import  ReactDOM  from "react-dom/client";
+import { FoodApp } from "./food-app/app";
 
 // Your React code can go here
 const heading = <h1>hello jsx</h1>;
@@ -29,4 +30,4 @@ const HeadingComponet = ({name}) => (
     </div>)
    
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HeadingComponet name="Suraj" />);
+root.render(<FoodApp/>);
